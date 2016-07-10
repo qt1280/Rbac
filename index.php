@@ -19,7 +19,7 @@ define('APP_DEBUG',true);
 define('APP_PATH','./App/');
 
 // 定义缓存目录
-define('RUNTIME_PATH','./Runtime/');
+//define('RUNTIME_PATH','./Runtime/');
 
 // 定义模板文件默认目录
 //define("TMPL_PATH","./tpl/");
