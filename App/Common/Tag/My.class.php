@@ -1,8 +1,6 @@
 <?php
-
 namespace Common\Tag;
 use Think\Template\TagLib;
-
 class My extends TagLib {
     // 定义标签
     protected $tags=array(

@@ -22,7 +22,7 @@ define('APP_PATH','./App/');
 define('RUNTIME_PATH','./Runtime/');
 
 // 定义模板文件默认目录
-define("TMPL_PATH","./tpl/");
+//define("TMPL_PATH","./tpl/");
 
 // 定义oss的url
 define("OSS_URL","");
