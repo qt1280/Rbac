@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>176CQ登录页面</title>
+		<meta name="keywords" content="176CQ登录页面" />
+		<meta name="description" content="176CQ登录页面" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="__PUBLIC__/css2/reset.css">
+        <link rel="stylesheet" href="__PUBLIC__/css2/supersized.css">
+        <link rel="stylesheet" href="__PUBLIC__/css2/style.css">
+    </head>
+    <body>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <div class="page-container">
+            <h1 style="color:black">RBAC后台登录</h1>
+            <form action="{:U('Admin/Login/loginHandle')}" method="post">
+                <input type="text" name="username" class="username" placeholder="用户名">
+                <input type="password" name="password" class="password" placeholder="密码">
+                <button type="submit">登录</button>
+                <a href="#"><button type="button" name="re">注册</button></a>
+            <div class="connect">
+                <div class="error"><span>+</span></div>
+            </form>
+                <p>Or connect with:</p>
+                <p>
+                    <a class="facebook" href=""></a>
+                    <a class="twitter" href=""></a>
+                </p>
+            </div>
+        </div>		
+        <!-- Javascript -->
+        <script src="__PUBLIC__/js2/jquery-1.8.2.min.js"></script>
+        <script src="__PUBLIC__/js2/supersized.3.2.7.min.js"></script>
+        <script src="__PUBLIC__/js2/supersized-init.js"></script>
+        <script src="__PUBLIC__/js2/scripts.js"></script>
+    </body>
+
+</html>
+
+
